@@ -1,4 +1,5 @@
 package ru.maxima.factory;
 
-public class Coffee {
+public interface Coffee {
+    public void printName();
 }
